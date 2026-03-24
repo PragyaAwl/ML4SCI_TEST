@@ -13,7 +13,7 @@ Link to the dataset drive:
 https://drive.google.com/drive/folders/124ZmfsQZld3REH09pTFTk2-RAzzRw0MJ?usp=sharing  
 
 The link contains the following data:  
-a. data_resampled: Contains the ground truths(generated using TotalSegmentator)+resampled CT Scans+ segmentation ground truths of CAC. However out of 69 scans only 35 have the heart segmentation ground truths.
+a. data_resampled: Contains the ground truths(generated using TotalSegmentator)+resampled CT Scans+ segmentation ground truths of CAC. However out of 69 scans only 35 have the heart segmentation ground truths.  
 b. hearmask_ids.json: Contains the list of the 35 scans that have the heart masks. It gets updated everytime, I get inference made from totalsegmenatator on some new scan  
 c. heartmask_unet_best.pth: Weights and bias file from intital 15 epochs.  
 d. heartmask_v2_unet_best.pth: Weights and bias files from the final 200 epochs.  
